@@ -1,0 +1,32 @@
+.auth-page{
+    /* background-color: blue; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pexels-pixabay-268966.jpg");
+    background-size: cover;
+}
+
+.left{
+    height: 90vh;
+    width: 40vw;
+    padding: 2.5em;
+    background-color: white;
+}
+
+.right{
+    height: 90vh;
+    width: 40vw;
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, yellow, rgb(247, 11, 215));
+}
+
+.sign-in-btn{
+    background-image: linear-gradient(to bottom right, yellow, rgb(247, 11, 215));
+}
